@@ -28,7 +28,7 @@ public class Question_3_6 {
 				);
 		for(Animal animal : animals)
 			shelter.enqueue(animal);
-		shelter.dequeueA();
+		shelter.dequeue();
 		shelter.dequeueCat();
 		shelter.dequeueDog();
 		System.out.println(shelter.cats.size());
@@ -83,7 +83,7 @@ class AnimalShelter {
         }
     }
     
-    public Animal dequeueA() throws Exception {
+    public Animal dequeue() throws Exception {
         boolean noC = cats.isEmpty();
         boolean noD = dogs.isEmpty();
         if(noC && noD)
