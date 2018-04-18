@@ -1,4 +1,8 @@
-/*
+/**
+ * Chapter 1 questions
+ * Problems from Cracking the Coding Interview
+ * @author Eric Elguea
+ *
  * Implement an algorithm to determine if a string has all unique characters. 
  * What if you can not use additional data structures?
  */
