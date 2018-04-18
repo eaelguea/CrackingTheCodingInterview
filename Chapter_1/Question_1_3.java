@@ -1,5 +1,9 @@
-*
- * 1.3 Write a method to replace all spaces in a string with ‘%20’.
+/**
+ * Chapter 1 questions
+ * Problems from Cracking the Coding Interview
+ * @author Eric Elguea
+ *
+ * Write a method to replace all spaces in a string with ‘%20’.
  */
 
 public class Question_1_3{
