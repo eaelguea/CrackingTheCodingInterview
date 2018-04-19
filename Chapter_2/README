@@ -1,0 +1,66 @@
+I: Re-state the problem with your own words
+D: Define your goals; state the format of your solution
+E, A: Use Duke’s 7 steps and include a description on how you broke the problem into sub-problems.
+L: Reflect on the whole problem-solving process you went though, and state what you learned
+
+Chapter 2:
+
+Question 1: 
+  I: Create a program that removes a copy of an element if it appears in a linked list.
+  D: I have to create the linked list class since I can't assume its there. I'll need to print the list too. So I have to work fast.
+  E, A: Step 1 - I started by seeing a linked list structure and seeing how it can be implemented again to refresh.
+        Step 2 - It may not be easy to break it down right now but now that I have the class, I can try and make nodes with rrandom values and see if any are the same.
+        Step 3 - I know how to randomize so now I can combine randomizing in the main method, and check if the node after the one being checked is the same. Then I can remove it.
+        Step 4 - I traced with a small list to see if my visual can be implemented. It didnt at first becuase I hadn't checked the int value of the node.
+        Step 5 - I then started to code by using the created node class and saw that while loops are better usage and can check a bit faster to me. I made sure that the values of the nodes are checked.
+        Step 6 - I tried small lists with range 0-5. It worked very well since the values were randomized and a couple were the same.
+        Step 7 - I tried larger lists and the same result happened. I then used a string character and the program crashed but the class here in the repository uses integers only.
+  L: I was able to break down the problem and I learned that refreshing on lists help you.
+
+Question 2: 
+  I: Create a program that returns a list from a specific node to the last node.
+  D: I have to create the linked list class since I can't assume its there. I'll need to print the list too. So I have to work fast.
+  E, A: Step 1 - I know that one list may not work so I have to use two. But how can I return the right one?
+        Step 2 - I saw that maybe two pointers can help to return the right list. When one ends, the pointer to the right list will start.
+        Step 3 - Make sure the first list has the nodes to that particular value then start the new one.
+        Step 4 - I traced the combining loops together and tried with a small list and with 4 nodes, it worked.
+        Step 5 - I then started to code by using that list with randomized values and had two lists made. Input the numbers up to a particluar node, then print the list with the remaining nodes.
+        Step 6 - I tried small lists and gradually increased.
+        Step 7 - I tried larger lists and the same result happened. I then used a string character in a node and the program crashed but the class here in the repository uses integers only.
+  L: I was able to break down the problem and I learned that remembering old code from classes can benefit you.
+  
+Question 3: 
+  I: Create a program that removes a middle node in a list.
+  D: Could it be easier with a larger list or smaller list? Maybe I need to dive into it more.
+  E, A: Step 1 - I can use a small list because it may be easier to return the list with the middle one gone. Can it return without hardcoding the right node to remove?
+        Step 2 - Since I now how to remove nodes from a previous problem, maybe that approach can be used well.
+        Step 3 - Make sure that nodes are checked and removed not values.
+        Step 4 - I traced using the smaller list approach and it seemed right so now I can code.
+        Step 5 - I then started to code by using the removing duplicates method but just editing by removing the middle of the list.
+        Step 6 - I tried different sizes smaller than 5. 
+        Step 7 - I tried larger lists and it started to only remove the first node. I had to hard code the node to remove so it took time.
+  L: I was able to break down the problem and I learned that relating problems together can help in creating code for new ones.
+
+Question 4: 
+  I: Create a program that makes a partiiton from a particular node in the list
+  D: Can you even separate a list like an array?
+  E, A: Step 1 - I had to look up partitions and I saw that it was not as hard but required more checks than usual.
+        Step 2 - I saw that it has to be two lists and the partiton must be at the right point because it may end up as the nth to last method.
+        Step 3 - Make sure that values are less that the partiotn value so that way the list gets cut
+        Step 4 - I traced with half of the largest node value in the list and it worked but not that efficiently. I had to make sure that the checks worked a bit faster.
+        Step 5 - I utilized while loops in my code and checked if that node value is less than the partition. That way the list works well.
+        Step 6 - Variated sizes and they all worked
+        Step 7 - I tried doubling sizes and it crashed by runtime error.
+  L: I was able to break down the problem and I learned that doing research can help in breaking down into bits and bits of code
+  
+Question 5: 
+  I: Create a program that adds two separate lists together and then sends that sum to a new list.
+  D: Seeing the concept, I know that some coding parts have to be concisely mapped out. So I researched some other ways to run this problem.
+  E, A: Step 1 - I can create two linked lists in main and then make the add method.
+        Step 2 - I need to them see if i can add the valus in the lists withoit taking up alot of time.
+        Step 3 - Maybe using separate checks and additions can speed it up but how can I insert ehm back into the new list?
+        Step 4 - Traced by add the lists together and then reversing the order so it adds from the tail to the head and sends the new sum to the list
+        Step 5 - I started to code by by add the lists together and then reversing the order so it adds from the tail to the head and sends the new sum to the list
+        Step 6 - Tried various sizes and values.s
+        Step 7 - Used the simple trick of a string character and large lists to overun the time.
+  L: I was able to break down the problem and I learned that its always good to remember adding lists so you can learn new ways to traverse linked lists.
