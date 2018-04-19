@@ -1,5 +1,7 @@
 IDEAL for Chapter 1
 
+
+
 I: Re-state the problem with your own words
 D: Define your goals; state the format of your solution
 E, A: Use Duke’s 7 steps and include a description on how you broke the problem into sub-problems.
