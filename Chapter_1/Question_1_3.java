@@ -6,35 +6,33 @@
  * Write a method to replace all spaces in a string with ‘%20’.
  */
 
-public class Question_1_3{
-    public static Character[] reverse(Character[] str){
-        Character[] ch = new Character[str.length];
-        ch[str.length-1] = str[str.length-1];
-        
-        for(int i=0; i<str.length-1; i++){
-            ch[(str.length-1)-i-1] = str[i];
+public static void replace(char[] str, int length) {
+    int spaceCount = 0, newLength, i = 0;
+         
+    for (i = 0; i < length; i++)
+    {
+        if (str[i] == ‘ ‘)
+        {
+            spaceCount++;
         }
-        return ch;
     }
-    
-    public static void reverse2(Character[] str, int index){
-        if(str[index]=='\0'){
-            return;
+         
+    newLength = length + spaceCount * 2;
+    str[newLength] = ‘\0’;
+    for (i = length - 1; i >= 0; i--)
+    {
+        if (str[i] == ‘ ‘)
+        {
+            str[newLength - 1] = ‘0’;
+            str[newLength - 2] = ‘2’;
+            str[newLength - 3] = ‘%’;       
+            newLength = newLength - 3;
+             
         }
-        reverse2(str, index+1);
-        System.out.print(str[index]);
-    }
-    
-    public static void main(String[] args){
-        Character[] str = {'a', 'b', 'c', 'd', 'e', 'f', '\0'};
-        
-        Character[] ch = reverse(str);
-        for(int i=0; i<ch.length; i++){
-            System.out.print(ch[i]);
+        else
+        {
+            str[newLength - 1] = str[i];       
+            newLength = newLength - 1;
         }
-        System.out.println();
-        
-        reverse2(str, 0);
-        System.out.println();
     }
 }
