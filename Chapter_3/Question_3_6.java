@@ -95,18 +95,18 @@ class AnimalShelter {
         else
             return cats.peek().date.compareTo(dogs.peek().date) < 0 ? cats.poll(): dogs.poll();
     }
-    
+	
     public Cat dequeueCat() throws Exception {
-		boolean noCat = cats.isEmpty();
-		if (noCat)
-			throw new Exception("There are no more cats!");
-		return cats.poll();
-	}
- 
-	public Dog dequeueDog() throws Exception {
-		boolean noDog = dogs.isEmpty();
-		if (noDog)
-			throw new Exception("There are no more dogs!");
-		return dogs.poll();
-	}
+	boolean noCat = cats.isEmpty();
+	    if (noCat)
+		    throw new Exception("There are no more cats!");
+	    return cats.poll();
+    }
+    
+    public Dog dequeueDog() throws Exception {
+	boolean noDog = dogs.isEmpty();
+	    if (noDog)
+		    throw new Exception("There are no more dogs!");
+	    return dogs.poll();
+    }
 }
