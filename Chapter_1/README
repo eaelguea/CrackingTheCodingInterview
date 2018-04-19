@@ -1,0 +1,75 @@
+I: Re-state the problem with your own words
+D: Define your goals; state the format of your solution
+E, A: Use Duke’s 7 steps and include a description on how you broke the problem into sub-problems.
+L: Reflect on the whole problem-solving process you went though, and state what you learned
+
+Chapter 1:
+
+Question 1: 
+  I: Create a program that checks if a certain word and all of its characters are unique in a certain way.
+  D: Figure out exactly how this problem can be approached. How can I create an algorithm that checks exactly every string? 
+      I can use a for-loop structure or maybe use a Map structure to continuously check each letter without stopping.
+  E, A: Step 1 - I started by using a one char length word and seeing if my Map could possibly check it.
+        Step 2 - I saw that it checked it but produced an error so i figured maybe the word should longer.
+        Step 3 - Since I increased the word size, I wondered how I would be able to check the word while updating the for loop through each check
+        Step 4 - I now tried with a HashMap and traced with a simple 'abcd' word. It worked out better cause the size was more than one char and each was unique.
+        Step 5 - I then started to code by using the HashMap library and utilized for-loops to check the word and its characters and see if the element in that
+                 was the same as the next one.
+        Step 6 - I tried names, mixtures of letters, and the full alphabet. Cases worked well.
+        Step 7 - I tried words that had double letters or all letters the same. Crashed.
+  L: I was able to break down the problem and I learned that breaking it down and solving bit by bit can benefit to creating great code.
+
+Question 3: 
+  I: Create a program that replaces any space in a string with a certain character combination.
+  D: Figure out exactly how this problem can be approached. How can I create an algorithm that checks for spaces, and can replace it?
+  E, A: Step 1 - I started by trying a singular string variable. But I knew it make take alot of time.
+        Step 2 - I saw that it may be easier to separate each 
+        Step 3 - Since I increased the word size, I wondered how I would be able to check the word while updating the for loop through each check
+        Step 4 - I now tried with a HashMap and traced with a simple 'abcd' word. It worked out better cause the size was more than one char and each was unique.
+        Step 5 - I then started to code by using the HashMap library and utilized for-loops to check the word and its characters and see if the element in that
+                 was the same as the next one.
+        Step 6 - I tried names, mixtures of letters, and the full alphabet. Cases worked well.
+        Step 7 - I tried words that had double letters or all letters the same. Crashed.
+  L: I was able to break down the problem and I learned that breaking it down and solving bit by bit can benefit to creating great code.
+  
+Question 7: 
+  I: Create a program that checks if a certain word and all of its characters are unique in a certain way.
+  D: Figure out exactly how this problem can be approached. How can I create an algorithm that checks exactly every string? 
+      I can use a for-loop structure or maybe use a Map structure to continuously check each letter without stopping.
+  E, A: Step 1 - I started by using a one char length word and seeing if my Map could possibly check it.
+        Step 2 - I saw that it checked it but produced an error so i figured maybe the word should longer.
+        Step 3 - Since I increased the word size, I wondered how I would be able to check the word while updating the for loop through each check
+        Step 4 - I now tried with a HashMap and traced with a simple 'abcd' word. It worked out better cause the size was more than one char and each was unique.
+        Step 5 - I then started to code by using the HashMap library and utilized for-loops to check the word and its characters and see if the element in that
+                 was the same as the next one.
+        Step 6 - I tried names, mixtures of letters, and the full alphabet. Cases worked well.
+        Step 7 - I tried words that had double letters or all letters the same. Crashed.
+  L: I was able to break down the problem and I learned that breaking it down and solving bit by bit can benefit to creating great code.
+
+Question 8: 
+  I: Create a program that checks if a certain word and all of its characters are unique in a certain way.
+  D: Figure out exactly how this problem can be approached. How can I create an algorithm that checks exactly every string? 
+      I can use a for-loop structure or maybe use a Map structure to continuously check each letter without stopping.
+  E, A: Step 1 - I started by using a one char length word and seeing if my Map could possibly check it.
+        Step 2 - I saw that it checked it but produced an error so i figured maybe the word should longer.
+        Step 3 - Since I increased the word size, I wondered how I would be able to check the word while updating the for loop through each check
+        Step 4 - I now tried with a HashMap and traced with a simple 'abcd' word. It worked out better cause the size was more than one char and each was unique.
+        Step 5 - I then started to code by using the HashMap library and utilized for-loops to check the word and its characters and see if the element in that
+                 was the same as the next one.
+        Step 6 - I tried names, mixtures of letters, and the full alphabet. Cases worked well.
+        Step 7 - I tried words that had double letters or all letters the same. Crashed.
+  L: I was able to break down the problem and I learned that breaking it down and solving bit by bit can benefit to creating great code.
+  
+Question 9: 
+  I: Create a program that checks if a certain word and all of its characters are unique in a certain way.
+  D: Figure out exactly how this problem can be approached. How can I create an algorithm that checks exactly every string? 
+      I can use a for-loop structure or maybe use a Map structure to continuously check each letter without stopping.
+  E, A: Step 1 - I started by using a one char length word and seeing if my Map could possibly check it.
+        Step 2 - I saw that it checked it but produced an error so i figured maybe the word should longer.
+        Step 3 - Since I increased the word size, I wondered how I would be able to check the word while updating the for loop through each check
+        Step 4 - I now tried with a HashMap and traced with a simple 'abcd' word. It worked out better cause the size was more than one char and each was unique.
+        Step 5 - I then started to code by using the HashMap library and utilized for-loops to check the word and its characters and see if the element in that
+                 was the same as the next one.
+        Step 6 - I tried names, mixtures of letters, and the full alphabet. Cases worked well.
+        Step 7 - I tried words that had double letters or all letters the same. Crashed.
+  L: I was able to break down the problem and I learned that breaking it down and solving bit by bit can benefit to creating great code.
